@@ -15,19 +15,19 @@ Right-click in your desired folder then go to:
 
     -   For each question, determine the Question Type:
 
-        -   Text Type: Specify the question by entering a string in the
+        -   **Text Type**: Specify the question by entering a string in the
             \"Question Text\" field.
 
-        -   Image Type: Attach an image to the question by selecting a
+        -   **Image Type**: Attach an image to the question by selecting a
             Sprite in the \"Question Image\" field.
 
 2.  **Adding Answers:**
 
     -   Select the appropriate Answer Type for each question:
 
-        -   Text Type: Enables you to input text as the answer.
+        -   **Text Type**: Enables you to input text as the answer.
 
-        -   Image Type: Enables you to select an image as the answer.
+        -   **Image Type**: Enables you to select an image as the answer.
 
     -   Populate the Answers List with Answer elements.
 
@@ -51,13 +51,13 @@ Right-click in your desired folder then go to:
 > allowing for a seamless integration into your project while meeting your
 > specific requirements.
 
--   Drag and Drop the Quiz System Handler from: Quiz System \> Prefabs,
+-   Drag and Drop the Quiz System Handler from: **Quiz System \> Prefabs**,
     Into your scene.
 
 ![image](https://github.com/Re-walid/Quiz-System-Unity-Package/assets/46139244/53d73509-2648-4bb5-a555-207aea53cc1b)
 
 
-You have the option to specify the Quiz Load Mode according to your
+You have the option to specify the **Quiz Load Mode** according to your
 preferences. There are three available modes to choose from:
 
 -   **Instantiate Mode:**
@@ -173,8 +173,7 @@ preferences. There are three available modes to choose from:
 ## Opening The Quiz System:
 
 There are multiple ways to open the Quiz System, allowing you to select
-the method that best suits your requirements. One of these methods is
-the \"Manual\" approach:
+the method that best suits your requirements.
 
 -   **Manual**:
 
@@ -191,15 +190,13 @@ the \"Manual\" approach:
 
 
 -   Now you can drag and drop this component into a custom event and
-    choose QuizOpenerManual -\> Open() method like this.
+    choose **QuizOpenerManual -\> Open()** method like this.
 
 ![image](https://github.com/Re-walid/Quiz-System-Unity-Package/assets/46139244/72a5bcf7-006d-48b0-a485-032bb46ac437)
-
 
 -   You can do this with the OnClick event on the UI Button component:
 
 ![image](https://github.com/Re-walid/Quiz-System-Unity-Package/assets/46139244/b9f59187-25b5-42d0-87ad-01837a2ab54f)
-
 
 -   **Automatically**:
 
