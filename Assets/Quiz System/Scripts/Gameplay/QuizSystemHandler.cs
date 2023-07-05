@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 using QuizSystem.Events;
 using UnityEditor;
 using QuizSystem.Custom;
-using QuizSystem.Interface;
 using QuizSystem.UI.Base;
 
 namespace QuizSystem.Gameplay
@@ -139,9 +138,12 @@ namespace QuizSystem.Gameplay
 
         private void HandleOnCloseQuiz()
         {
-            if(_sceneLoadMode == LoadSceneMode.Additive)
+            if(_quizLoadMode == QuizLoadMode.NewScene)
             {
-                var asyncOP = SceneManager.UnloadSceneAsync(_quizScene.name);
+                if (_sceneLoadMode == LoadSceneMode.Additive)
+                {
+                    var asyncOP = SceneManager.UnloadSceneAsync(_quizScene.name);
+                }
             }
         }
     }

@@ -36,5 +36,12 @@ namespace QuizSystem.UI
             _progressSlider.value = _currentQuestionIndex; 
             _progressText.text = $"{_currentQuestionIndex} / {_totalNumberOfQuestions}";
         }
+
+        public void ResetProgressState()
+        {
+            _totalNumberOfQuestions = 0;
+            _currentQuestionIndex = 0;
+            _progressSlider.value = 0;
+        }
     } 
 }

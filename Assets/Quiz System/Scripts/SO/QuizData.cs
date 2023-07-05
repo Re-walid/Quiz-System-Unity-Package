@@ -34,6 +34,7 @@ namespace QuizSystem.SO
 
         [Space]
         public AnswerType answerType;
+        [Header("Make sure you have 4 answers or less")]
 
         [ConditionalProperty("answerType", (int)AnswerType.Text)]
         public TextAnswerList textAnswer;

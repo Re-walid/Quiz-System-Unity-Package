@@ -69,7 +69,7 @@ namespace QuizSystem.Gameplay
         private int _currentQuestionIndex = 0;
         private Question _currentQuestion;
 
-
+        
         public void Open()
         { 
             _quizData = _chosenQuizData.chosenQuiz;
@@ -126,6 +126,7 @@ namespace QuizSystem.Gameplay
 
             QuizEvents.OnQuizIsFinished?.Invoke();
             Close();
+            ResetManagerState();
         }
         private void ShowQuestion(int index)
         {
@@ -282,6 +283,15 @@ namespace QuizSystem.Gameplay
         private void HandleChoseImageAnswer(ImageQuizAnswer answer)
         {
             HandleAnswer(answer);
+        }
+
+        private void ResetManagerState()
+        {
+            _isQuizStarted = false;
+            _currentQuestionIndex = 0;
+            _currentQuestion = null;
+            _quizData = null;
+            _quizProgressBar.ResetProgressState();
         }
     } 
 }
