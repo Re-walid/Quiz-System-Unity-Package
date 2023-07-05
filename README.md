@@ -1,3 +1,6 @@
+if you just want the Unity Package, then just go to this link: 
+https://rewalid.itch.io/quiz-system-unity-package
+
 ## Creating Quiz Data
 
 Right-click in your desired folder then go to:
