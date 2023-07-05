@@ -7,6 +7,7 @@ Here are the General instructions. For more detailed instructions scroll down.
 1. **Create Quiz Data**
 2. **Drag & Drop Quiz System Handler into your scene**
 3. **Use the Quiz Opener Component to open your Quiz** (Here you should reference the Quiz Data you created)
+4. **Take advantage of the Quiz Result Data** (Path: Quiz System/Data/QuizResultData.asset)
 
 ## Detailed Instructions
 Here you will find everything you need to understand how the system works.
