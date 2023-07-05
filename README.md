@@ -1,6 +1,11 @@
 if you just want the Unity Package, then just go to this link: 
 https://rewalid.itch.io/quiz-system-unity-package
 
+General Instructions: 
+1. **Create Quiz Data**
+2. **Drag & Drop Quiz System Handler into your scene**
+3. **Use the Quiz Opener Component to open your Quiz** (Here you should reference the Quiz Data you created)
+
 ## Creating Quiz Data
 
 Right-click in your desired folder then go to:
