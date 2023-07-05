@@ -11,7 +11,7 @@ Here are the General instructions. For more detailed instructions scroll down.
 ## Detailed Instructions
 Here you will find everything you need to understand how the system works.
 
-1. ### Creating Quiz Data
+### 1. Creating Quiz Data
 
 Right-click in your desired folder then go to:
 
@@ -63,6 +63,8 @@ Right-click in your desired folder then go to:
 > By following these steps, you can easily customize your Quiz data,
 > allowing for a seamless integration into your project while meeting your
 > specific requirements.
+
+### 2. Quiz System Handler
 
 -   Drag and Drop the Quiz System Handler from: **Quiz System \> Prefabs**,
     Into your scene.
@@ -183,7 +185,7 @@ preferences. There are three available modes to choose from:
 <!-- -->
 ```
 
-### Opening The Quiz System:
+### 3. Opening The Quiz System:
 
 There are multiple ways to open the Quiz System, allowing you to select
 the method that best suits your requirements.
@@ -241,7 +243,7 @@ on a UI or a Collider.
 <!-- -->
 ```
 
-### Quiz Result Data:
+### 4. Quiz Result Data:
 
 The Quiz Result data is Scriptable Object, It includes essential
 information such as:
