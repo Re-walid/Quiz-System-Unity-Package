@@ -1,4 +1,4 @@
-if you just want the Unity Package, then just go to this link: 
+If you just want the Unity Package, then just go to this link: 
 https://rewalid.itch.io/quiz-system-unity-package
 
 ## General Instructions: 
@@ -8,7 +8,10 @@ Here are the General instructions. For more detailed instructions scroll down.
 2. **Drag & Drop Quiz System Handler into your scene**
 3. **Use the Quiz Opener Component to open your Quiz** (Here you should reference the Quiz Data you created)
 
-## Creating Quiz Data
+## Detailed Instructions
+Here you will find everything you need to understand how the system works.
+
+1. ### Creating Quiz Data
 
 Right-click in your desired folder then go to:
 
@@ -19,7 +22,7 @@ Right-click in your desired folder then go to:
 > To tailor your Quiz data to suit your specific needs and requirements,
 > the following steps will guide you through the customization process:
 
-1. **Adding Questions:**
+- **Adding Questions:**
 
     -   Begin by populating the Questions List with Question elements.
 
@@ -31,7 +34,7 @@ Right-click in your desired folder then go to:
         -   **Image Type**: Attach an image to the question by selecting a
             Sprite in the \"Question Image\" field.
 
-2.  **Adding Answers:**
+-  **Adding Answers:**
 
     -   Select the appropriate Answer Type for each question:
 
@@ -45,7 +48,7 @@ Right-click in your desired folder then go to:
 
     -   Specify the correct answer by checking the Is Correct checkbox.
 
-3.  **Adding Time:**
+- **Adding Time:**
 
     -   Specify whether your question has timer by checking the Has Time
         checkbox.
@@ -180,7 +183,7 @@ preferences. There are three available modes to choose from:
 <!-- -->
 ```
 
-## Opening The Quiz System:
+### Opening The Quiz System:
 
 There are multiple ways to open the Quiz System, allowing you to select
 the method that best suits your requirements.
@@ -238,7 +241,7 @@ on a UI or a Collider.
 <!-- -->
 ```
 
-## Quiz Result Data:
+### Quiz Result Data:
 
 The Quiz Result data is Scriptable Object, It includes essential
 information such as:
